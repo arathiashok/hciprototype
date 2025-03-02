@@ -18,17 +18,14 @@
     </button>
 
     <!-- Sidebar Navigation -->
-    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:100px;right:0;z-index:2;width:250px;" id="mySidebar">
-        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
-            <i class="fa fa-remove"></i>
-        </a>
-        <div class="w3-bar-block w3-center">
-            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
-            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
-            <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
-        </div>
-    </nav>
+
+    <div class="sidenav" position="fixed">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Contact</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
 
     <div id="portfolio" class="container text-center">
         <header class="py-5">
@@ -40,13 +37,6 @@
         <section id="about" class="py-5 text-left">
             <h2>About</h2>
             <p>A committed and proactive Software/Data Engineer, pursuing a Computer Science Master's degree. Skilled in data engineering, full-stack development, and cloud computing, with expertise in Python, Java, SQL, and Microsoft Azure to build scalable solutions, optimize workflows, and drive innovation.</p>
-        </section>
-
-        <section id="contact" class="py-5 text-left">
-            <h2>Contact Me</h2>
-            <p><i class="fas fa-map-marker-alt"></i> Iowa City, IA</p>
-            <p><i class="fa fa-phone"></i> Phone: +1 (319) 111-1111</p>
-            <p><i class="fa fa-envelope"></i> Email: <a href="mailto:arathi-ashok@uiowa.edu">arathi-ashok@uiowa.edu</a></p>
         </section>
 
         <section id="skills" class="py-5 text-left">
@@ -88,6 +78,14 @@
                 </li>
             </ol>
         </section>
+
+        <section id="contact" class="py-5 text-left">
+            <h2>Contact Me</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Iowa City, IA</p>
+            <p><i class="fa fa-phone"></i> Phone: +1 (319) 111-1111</p>
+            <p><i class="fa fa-envelope"></i> Email: <a href="mailto:arathi-ashok@uiowa.edu">arathi-ashok@uiowa.edu</a></p>
+        </section>
+
     </div>
 
     <footer>

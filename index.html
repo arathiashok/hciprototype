@@ -13,6 +13,23 @@
 </head>
 
 <body>
+    <button class="w3-button w3-black w3-xxlarge w3-right" onclick="openNav()" style="margin: 10px;">
+        ☰ Menu
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:100px;right:0;z-index:2;width:250px;" id="mySidebar">
+        <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+            <i class="fa fa-remove"></i>
+        </a>
+        <div class="w3-bar-block w3-center">
+            <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+            <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+        </div>
+    </nav>
+
     <div id="portfolio" class="container text-center">
         <header class="py-5">
             <h1>Arathi Ashok</h1>
@@ -71,12 +88,23 @@
                 </li>
             </ol>
         </section>
-
-        <footer class="py-3 text-center">
-            <a href="https://github.com" target="_blank"><i class="fa fa-github fa-2x mx-2" aria-hidden="true"></i></a>
-            <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-2x mx-2" aria-hidden="true"></i></a>
-        </footer>
     </div>
+
+    <footer>
+        <a href="https://github.com" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        <p>&copy; 2025 Arathi Ashok | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

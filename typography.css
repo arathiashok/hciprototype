@@ -39,14 +39,14 @@ nav {
     font-size: 18px;
     font-weight: bold;
     background-color: #1E3A8A; /* Dark Blue */
-    padding: 15px;
+    padding: 5px 15px;
     text-align: center;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    padding: 10px 20px;
+    padding: 5px 20px;
     display: inline-block;
     font-weight: bold;
 }

@@ -124,6 +124,11 @@ input[type="text"]:focus, textarea:focus, input:focus {
     border-color: #F59E0B;
 }
 
+.project-img{
+    height: 200px;
+    object-fit: cover;
+}
+
 /* Footer */
 footer {
     font-family: 'Courier New', monospace; /* Gives a distinct typewriter style */

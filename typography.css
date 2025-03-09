@@ -1,19 +1,17 @@
-/* Global Styles */
 body {
-    font-family: 'Arial', sans-serif; /* Web-safe font */
+    font-family: 'Arial', sans-serif; 
     font-size: 16px;
     line-height: 1.6;
-    color: #333; /* Dark gray for readability */
+    color: #333;
     margin: 0;
     padding: 0;
 }
 
-/* Headings */
 h1, h2, h3 {
-    font-family: 'Georgia', serif; /* Classic professional look */
+    font-family: 'Georgia', serif; 
     font-weight: bold;
     margin-bottom: 10px;
-    color: #1E3A8A; /* Dark Blue */
+    color: #1E3A8A;
 }
 
 h1 {
@@ -24,7 +22,7 @@ h1 {
 h2 {
     font-size: 28px;
     line-height: 1.4;
-    border-bottom: 3px solid #F59E0B; /* Amber Underline */
+    border-bottom: 3px solid #F59E0B;
     padding-bottom: 5px;
 }
 
@@ -33,12 +31,11 @@ h3 {
     line-height: 1.4;
 }
 
-/* Navigation */
 nav {
-    font-family: 'Verdana', sans-serif; /* Clean and readable */
+    font-family: 'Verdana', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    background-color: #1E3A8A; /* Dark Blue */
+    background-color: #1E3A8A;
     padding: 5px 15px;
     text-align: center;
 }
@@ -52,7 +49,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #F59E0B; /* Amber (Hover Effect) */
+    background-color: #F59E0B;
     color: #1E3A8A;
     transition: 0.3s;
 }
@@ -75,7 +72,6 @@ nav a:hover {
     transition: 0.3s;
 }
 
-/* Buttons */
 button {
     font-family: 'Tahoma', sans-serif;
     font-size: 16px;
@@ -94,7 +90,6 @@ button:hover {
     transition: 0.3s;
 }
 
-/* Paragraphs */
 p {
     font-size: 16px;
     line-height: 1.6;
@@ -109,7 +104,6 @@ section {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Form Inputs */
 input[type="text"], textarea, input {
     width: 100%;
     padding: 10px;
@@ -129,9 +123,8 @@ input[type="text"]:focus, textarea:focus, input:focus {
     object-fit: cover;
 }
 
-/* Footer */
 footer {
-    font-family: 'Courier New', monospace; /* Gives a distinct typewriter style */
+    font-family: 'Courier New', monospace;
     font-size: 14px;
     line-height: 1.6;
     text-align: center;

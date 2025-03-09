@@ -57,6 +57,24 @@ nav a:hover {
     transition: 0.3s;
 }
 
+.internalbuttons {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    background-color: #1E3A8A;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.internalbuttons:hover {
+    background-color: #F59E0B;
+    color: #1E3A8A;
+    transition: 0.3s;
+}
+
 /* Buttons */
 button {
     font-family: 'Tahoma', sans-serif;
